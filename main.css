@@ -1,0 +1,64 @@
+body{
+    margin:0;
+}
+#nav{
+    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-color: slategray;
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+#title{
+    float: right;
+    width: 0%;
+    font-size: 2.5vw;
+    text-align: right;
+}
+#icon{
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-size: 2vw;
+    color: cornsilk;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+#navicons a:hover{
+    background-color: blue;
+}
+#navicons a:visited{
+    color: cornsilk;
+}
+#navicons{
+    text-align: center;
+    font-size:2vw;
+    padding-top: 20px;
+    float:left;
+    color: cornsilk;
+    height: 100%;
+    width: 20%;
+}
+#background{
+/*    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+    height: 1080px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: static;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+#foot{
+    
+}
+@keyframes example {
+    0% {background-color: #7799CC;}
+    20% {background-color: #F69CC4;}
+    40% {background-color: #f4adc6;}
+    60% {background-color: #FDFD95 ;}
+    80% {background-color: #AFC3D2;}
+    100% {background-color: #7799CC;}
+}
