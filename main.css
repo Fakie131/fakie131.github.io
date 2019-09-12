@@ -2,8 +2,8 @@ body{
     margin:0;
 }
 #nav{
-    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-color: slategray;
+/*    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-color: slategray; */
     color: white;
     position: absolute;
     width: 100%;
@@ -19,7 +19,7 @@ body{
     height: 100%;
     float: right;
     font-size: 2vw;
-    color: cornsilk;
+    color: black;
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
@@ -27,14 +27,14 @@ body{
     background-color: blue;
 }
 #navicons a:visited{
-    color: cornsilk;
+    color: black;
 }
 #navicons{
     text-align: center;
     font-size:2vw;
     padding-top: 20px;
     float:left;
-    color: cornsilk;
+    color: black;
     height: 100%;
     width: 20%;
 }
