@@ -58,7 +58,7 @@ body{
 }
 #background{
 /*    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
-    height: 1280px;
+    height: 1366px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -72,6 +72,22 @@ body{
     height: 100px;
 }
 
+#foot{
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top:1166px;
+    color: white;
+    
+}
+#validator{
+    position: absolute;
+    right: 110px;
+    bottom: 15px;
+    width:5%;
+    height:150px;
+    align-content: flex-start;
+}
 #nic{
     position: absolute;
     padding-left: 0;
@@ -91,24 +107,8 @@ body{
     text-align: center;
     top: 300px;
     font-family: 'Pacifico', cursive;
-    overflow: hidden;
+    overflow:visible;
     font-size: 35px;
-}
-#foot{
-    width:100%;
-    height: 200px;
-    position: absolute;
-    top:1080px;
-    color: white;
-    
-}
-#validator{
-    position: absolute;
-    right: 45px;
-    bottom: 15px;
-    width:5%;
-    height:150px;
-    align-content: flex-start;
 }
 @keyframes example {
     0% {background-color: #7799CC;}
