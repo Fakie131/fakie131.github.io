@@ -59,7 +59,7 @@ body{
 }
 #background{
 /*    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
-    height: 100%;
+    height: 1000px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -70,16 +70,30 @@ body{
 }
 #nicbuffer{
     width: 100%;
-    height: 1080px;
+    height: 100px;
 }
 
 #nic{
-    position: relative;
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0%;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
     animation-name:nicbgone;
     animation-duration: 2s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 6;
     visibility: hidden;
+}
+#discord{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    top: 300px;
+    font-family: 'Pacifico', cursive;
+    overflow: hidden;
+    font-size: 35px;
 }
 #foot{
     
