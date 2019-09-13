@@ -4,7 +4,7 @@ body{
 #nav{
 /*    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-color: slategray; */
-    color: white;
+    color: black;
     position: absolute;
     width: 100%;
 }
@@ -14,29 +14,48 @@ body{
     font-size: 2.5vw;
     text-align: right;
 }
+#slider{
+    text-decoration: none;
+    list-style: none;
+    font-size: 5vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    cursor: pointer; 
+}
 #icon{
     width: 20%;
     height: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
     float: right;
     font-size: 2vw;
     color: black;
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
+#navicons{
+    text-align: center;
+    font-size:3vw;
+    letter-spacing: 20px;
+    padding-top: 15px;
+    float:center;
+    color: black;
+    height: 100px;
+    width: 20%;
+    position: absolute;
+    left: 50px;
+    display: flex;
+}
+
 #navicons a:hover{
     background-color: blue;
 }
 #navicons a:visited{
     color: black;
 }
-#navicons{
-    text-align: center;
-    font-size:2vw;
-    padding-top: 20px;
-    float:left;
-    color: black;
-    height: 100%;
-    width: 20%;
+#navicons.active{
+    left: 50px;
 }
 #background{
 /*    background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
@@ -78,3 +97,15 @@ body{
     70% {visibility: visible; opacity: 0.1;}
     100%{visibility: hidden;opacity: 0.0;}
 }
+@media screen and (max-width:760px){
+    #navicons{
+        position: absolute;
+        left: -200px;
+        display: flex;
+    }
+}
+@media screen and (min-width:760px){
+    #slider{
+        position: fixed;
+        display: none;
+    }
