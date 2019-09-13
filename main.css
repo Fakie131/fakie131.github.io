@@ -39,7 +39,6 @@ body{
     font-size:3vw;
     letter-spacing: 20px;
     padding-top: 15px;
-    float:center;
     color: black;
     height: 100px;
     width: 20%;
@@ -123,3 +122,4 @@ body{
         position: fixed;
         display: none;
     }
+}
