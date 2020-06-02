@@ -54,7 +54,7 @@ body{
 }
 
 #navicons a:hover{
-    background-color: blue;
+    background-color: black;
     border-radius: 100px;
 }
 #navicons a:visited{
@@ -121,12 +121,8 @@ body{
     font-size: 3.5vw;
 }
 @keyframes example {
-    0% {background-color: #7799CC;}
-    20% {background-color: #F69CC4;}
-    40% {background-color: #f4adc6;}
-    60% {background-color: #FDFD95 ;}
-    80% {background-color: #AFC3D2;}
-    100% {background-color: #7799CC;}
+    0% {background-color: black;}
+    100% {background-color: black;}
 }
 @keyframes nicbgone {
     0% {visibility: hidden; opacity: 0.0;}
