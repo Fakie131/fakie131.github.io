@@ -55,6 +55,7 @@ body{
 
 #navicons a:hover{
     background-color: black;
+    color: black;
     border-radius: 100px;
 }
 #navicons a:visited{
