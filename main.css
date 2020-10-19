@@ -32,22 +32,22 @@ body{
 #icon{
     width: 30%;
     height: 100%;
-    padding-top: 2%;
-    padding-right: 10px;
+    padding-top: 1px;
+    padding-right: 5px;
     float: right;
-    font-size: 2.5vw;
+    font-size: 1vw;
     color: black;
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
 #navicons{
     text-align: center;
-    font-size:5vw;
+    font-size:2vw;
     letter-spacing: 20px;
     color: black;
     height: 80%;
     width: 30%;
-    margin-top:2%;
+    margin-top:2px;
     left:1%;
     position:absolute;
     border-radius: 100x;
@@ -122,8 +122,9 @@ body{
     font-size: 3.5vw;
 }
 @keyframes example {
-    0% {background-color: black;}
-    100% {background-color: black;}
+    0% {background-color: cyan;}
+    50% {background-color: purple;}
+    100% {background-color: cyan;}
 }
 @keyframes nicbgone {
     0% {visibility: hidden; opacity: 0.0;}
