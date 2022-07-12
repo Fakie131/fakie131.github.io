@@ -138,6 +138,7 @@ body, html{
 #demo{
     position: absolute;
     overflow: auto;
+    float: left;
     
 }
 

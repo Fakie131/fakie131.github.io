@@ -1,4 +1,4 @@
-var mincome = prompt("How much do you make gross profit per month?");
+var mincome = prompt("How much do you make net profit per month? (profit minus expenses)");
 var inc= parseFloat(mincome);
 var formatinc=inc.toFixed(2);
 var yincome = formatinc * 12;
